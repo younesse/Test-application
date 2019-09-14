@@ -42,6 +42,18 @@ public class CacheConfiguration {
             createCache(cm, com.news.feed.domain.User.class.getName());
             createCache(cm, com.news.feed.domain.Authority.class.getName());
             createCache(cm, com.news.feed.domain.User.class.getName() + ".authorities");
+            createCache(cm, com.news.feed.domain.Country.class.getName());
+            createCache(cm, com.news.feed.domain.Region.class.getName());
+            createCache(cm, com.news.feed.domain.Location.class.getName());
+            createCache(cm, com.news.feed.domain.Department.class.getName());
+            createCache(cm, com.news.feed.domain.Department.class.getName() + ".employees");
+            createCache(cm, com.news.feed.domain.Task.class.getName());
+            createCache(cm, com.news.feed.domain.Task.class.getName() + ".jobs");
+            createCache(cm, com.news.feed.domain.Employee.class.getName());
+            createCache(cm, com.news.feed.domain.Employee.class.getName() + ".jobs");
+            createCache(cm, com.news.feed.domain.Job.class.getName());
+            createCache(cm, com.news.feed.domain.Job.class.getName() + ".tasks");
+            createCache(cm, com.news.feed.domain.JobHistory.class.getName());
             // jhipster-needle-ehcache-add-entry
         };
     }
