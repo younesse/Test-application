@@ -1,18 +1,10 @@
-entity FeedMessage {
-	String title;
-    String description;
-    String link;
-    String author;
-    String guid;
-}
-entity FeedMessage {
-	regionName String
-}
-
 entity Country {
 	countryName String
 }
 
+entity Region {
+	regionName String
+}
 // an ignored comment
 /** not an ignored comment */
 entity Location {
