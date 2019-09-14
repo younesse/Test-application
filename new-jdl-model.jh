@@ -5,9 +5,6 @@ entity FeedMessage {
     String author;
     String guid;
 }
-entity FeedMessage {
-	regionName String
-}
 
 entity Country {
 	countryName String
